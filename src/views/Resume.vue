@@ -23,10 +23,11 @@
    font-family: 'PT Sans', sans-serif;
     Font-Size: 1.2rem;
       line-height: 1.5;
-
   }
 
-
+img {
+  height: 75vh;
+}
 
 .fas {
   font-size: 1.8rem; 
@@ -54,12 +55,11 @@ img .card {
   .about {
     padding-top: 5vh;
     width: 90vh;
-    margin-left: auto;    
-    margin-right: auto;
+    margin:  auto;
+
+
 
   }
 
-#img {
-  height: 81vh;
-}
+
 </style>

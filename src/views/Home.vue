@@ -21,9 +21,6 @@
 
 <style scoped>
 
-
- 
-
 #title {
   font-size: 6rem;
 }
@@ -37,7 +34,6 @@ h3 {
 }
 
 .home {
-  height: 100vh;
   display: flex; /* contexte sur le parent */
   flex-direction: column; /* direction d'affichage verticale */
   justify-content: center; 
@@ -61,13 +57,5 @@ h3 {
   margin-left: auto;
   margin-right: auto;
 }
-
-
-
-/* // Medium devices (tablets, 768px and up)
-@media (min-width: 768px) and (max-width: 991.98px) { ... } */
-
-
-
 
 </style>

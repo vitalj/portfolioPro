@@ -3,7 +3,9 @@
       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
 <link href="https://fonts.googleapis.com/css?family=Nunito|PT+Sans" rel="stylesheet">
 
+<div class="skewed-bg">
 
+</div>
 
         <div class="navbar">
       <ul>
@@ -24,6 +26,14 @@
 </template>
 <style>
 
+.skewed-bg {
+  background: #00B285;
+  -webkit-transform: skew(0deg, -5deg);
+  transform: skew(0deg, -8deg);
+  padding: 100px 0;
+  margin-top: -100px;
+}
+
 h1 {
 font-family: 'Nunito', sans-serif;
 Font-Size: 2.5rem;
@@ -41,10 +51,7 @@ font-family: 'Nunito', sans-serif;
 body {
   margin-top:0;
   margin-bottom: 0;
-  background: -webkit-linear-gradient(70deg, #ff6464 30%, #5ac8fa 80%);
-  background: -o-linear-gradient(70deg, #ff6464 30%, #5ac8fa 80%);
-  background: -moz-linear-gradient(70deg, #ff6464 30%, #5ac8fa 80%);
-  background: linear-gradient(70deg, #ff6464 30%, #5ac8fa 80%);  
+  background: #222;
   text-align: center;
   Font-Size: 15px; 
   position: relative;
@@ -91,7 +98,6 @@ font-family: 'Nunito', sans-serif;
 
 .navbar li:first-child {
   margin-right: auto;
-  /* font-size: 2em; */
   font-weight: bold;
 }
 
@@ -108,9 +114,6 @@ font-family: 'Nunito', sans-serif;
 .navbar a:hover {
   color: grey;
 }
-
-
-
 
 </style>
 <script>

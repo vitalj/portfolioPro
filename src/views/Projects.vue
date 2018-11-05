@@ -82,14 +82,15 @@
 
 <style scoped>
 
-html,
-body,
-{
-  width: 100vw;
-}
+
 
 .project {
-  padding-top: 50px;
+  padding-top: 5vh;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+
+  
 }
 
 a > button:hover {
@@ -105,7 +106,7 @@ a > button:hover {
 .fab {
   font-size: 1.8rem; 
    color: white;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(216, 216, 216, 0);
    border: 1px solid rgba(247, 212, 212, 0);
 }
 .fab:hover {
@@ -115,7 +116,6 @@ a > button:hover {
 
 body {
   font-weight: 400;
-  
   letter-spacing: 0;
   padding: 1rem;
   text-rendering: optimizeLegibility;
@@ -158,13 +158,13 @@ img {
 }
 
 .card {
-  background-color: rgba(0, 0, 0, 0.45);
+  background-color: rgba(189, 189, 189, 0.27);
   border-radius: 0.25rem;
-  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.763);
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  border: 1px solid rgb(0, 0, 0);
+  border: 1px solid white;
 
 }
 .card:hover .card__image {
