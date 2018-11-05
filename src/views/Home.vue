@@ -53,7 +53,7 @@ h3 {
 }
 .hello {
   padding: 0;
-  width: 90vh;
+  width: 70vw;
   margin-left: auto;
   margin-right: auto;
 }

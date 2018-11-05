@@ -1,13 +1,13 @@
 <template>
   <div class="project">
-    <h1>Voici les différents projets que j'ai réalisé jusqu'à présent :</h1>
+    <h1>Voici les différents projets que j'ai réalisés jusqu'à présent :</h1>
 <ul class="cards">
   <li class="cards__item">
     <div class="card">
       <div class="card__image card__image--interface-ri"></div>
       <div class="card__content">
         <div class="card__title">Interface-RI</div>
-        <p class="card__text">C'est un projet que j'ai réalisé durant mon stage à la Communauté d'agglomérations du Grand Besançon. J'ai dû modifier un logiciel existant pour y ajouter des fonctions de géo-localisation sur des camions-poubelles ainsi que diverses informations pour faciliter le suivi par la direction.</p>
+        <p class="card__text">C'est un projet que j'ai réalisé durant mon stage à la Communauté d'Agglomération du Grand Besançon. J'ai dû modifier un logiciel existant pour y ajouter des fonctions de géo-localisation sur des camions-poubelles ainsi que diverses informations pour faciliter le suivi par la direction.</p>
      <a target="_blank" href="https://github.com/vitalj/interfaceRI"> <button class="fab fa-github"></button></a>
       </div>
     </div>
@@ -17,7 +17,7 @@
       <div class="card__image card__image--tech-tracker"></div>
       <div class="card__content">
         <div class="card__title">Tech-Tracker</div>
-        <p class="card__text">C'est une application qui permet à l'aide de l'API Github d'afficher qu'elles sont les technologies les plus utilisées par projet dans chaque département français.</p>
+        <p class="card__text">C'est une application qui permet à l'aide de l'API Github d'afficher quelles sont les technologies les plus utilisées par projet dans chaque département français.</p>
      <a target="_blank" href="https://github.com/vitalj/tech-tracker"> <button class="fab fa-github"></button></a>
       </div>
     </div>
@@ -27,7 +27,7 @@
       <div class="card__image card__image--wetransfer"></div>
       <div class="card__content">
         <div class="card__title">Wetransfer-Like</div>
-        <p class="card__text">Cette application qui permet le partage de fichiers compressés en envoyant un lien par mail aux destinataires.</p>
+        <p class="card__text">Cette application permet le partage de fichiers compressés en envoyant un lien par mail aux destinataires.</p>
      <a target="_blank" href="https://github.com/vitalj/wetransfer-like"> <button class="fab fa-github"></button></a>
       </div>
     </div>
@@ -36,9 +36,9 @@
     <div class="card">
       <div class="card__image card__image--explo"></div>
       <div class="card__content">
-        <div class="card__title">Explorateur de fichier</div>
-        <p class="card__text">Application qui permet d'explorer des fichiers<br>
-          Elle est écrit en AJAX ce qui permet d'éviter le rechargement de la page.</p>
+        <div class="card__title">Explorateur de fichiers</div>
+        <p class="card__text">Application qui permet d'explorer des fichiers.<br>
+          Elle est écrite en AJAX ce qui permet d'éviter le rechargement de la page.</p>
      <a target="_blank" href="https://github.com/vitalj/Extracteur-fichier-PHP-AJAX"> <button class="fab fa-github"></button></a>
       </div>
     </div>
@@ -48,18 +48,18 @@
       <div class="card__image card__image--pwa"></div>
       <div class="card__content">
         <div class="card__title">Portfolio PWA</div>
-        <p class="card__text">C'est une application mobile (PWA) crée au cours de l'année pour montrer les projets créés. <br>
-          Elle à été écrite dans le but d'être le plus rapide possible.</p>
+        <p class="card__text">C'est une application mobile (PWA) créée au cours de l'année pour montrer les projets créés. <br>
+          Elle a été écrite dans le but d'être le plus rapide possible.</p>
      <a target="_blank" href="https://github.com/vitalj/portfolioPWA"> <button class="fab fa-github"></button></a>
       </div>
-    </div>
+    </div>  
   </li>
     <li class="cards__item">
     <div class="card">
       <div class="card__image card__image--bomberman"></div>
       <div class="card__content">
         <div class="card__title">Bomberman</div>
-        <p class="card__text">C'est un jeu copié sur le principe de Bomberman. Ce projet étudiant est écrit en JavaScript et a été créé en trinôme en 3 jours de cours.</p>
+        <p class="card__text">C'est un jeu copié sur le principe de Bomberman. Ce projet a été créé à l'aide de 2 collègues en 3 jours; il est écrit en JavaScript</p>
      <a target="_blank" href="https://github.com/vitalj/Bomberman-Groupe2"> <button class="fab fa-github"></button></a>
       </div>
     </div>
